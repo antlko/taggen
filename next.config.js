@@ -1,12 +1,12 @@
 /**
-* @type {import('next').NextConfig}
-*/
+ * @type {import('next').NextConfig}
+ */
 const nextConfig = {
-    images: {
-      loader: 'antlko',
-      path: '',
-    },
-    assetPrefix: './',
-  };
-  
+  images: {
+    loader: "antlko",
+    path: "",
+  },
+  assetPrefix: "./",
+};
+
 export default nextConfig;
