@@ -1,10 +1,4 @@
-/**
- * @type {import('next').NextConfig}
- */
-export default nextConfig = {
-  images: {
-    loader: "antlko",
-    path: "",
-  },
-  assetPrefix: "./",
-};
+/** @type {import('next').NextConfig} */
+const nextConfig = {}
+
+module.exports = nextConfig
